@@ -1,0 +1,9 @@
+header{
+    height:10vh ;
+    background-color: rgb(255, 197, 37);
+    color: aliceblue;
+    font-family:cursive;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+}
