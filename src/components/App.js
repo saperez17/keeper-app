@@ -6,6 +6,7 @@ import '../App.css'
 
 import Card from './Card';
 import contacts from '../contacts';
+import notes from '../notes';
 
 
 function App() {
@@ -13,14 +14,17 @@ function App() {
     <div>
       <Header />
       {/* <Note title="Morning chore #1" content="Wake up!"/> */}
-      {contacts.map((item, idx)=>(
-          <Card
-          key={idx}
-          name={item.name}
-          imageURL={item.imageURL}
-          phone={item.phone}
-          email={item.email}/>
-      ))}
+      <div className="big-title"><h1>My Contacts</h1></div>
+    <div className="note-container">
+      {notes.map((item)=>(
+                  <Note
+                    key = {item.key}
+                    title = {item.title}
+                    content = {item.content} />
+        ))}
+    </div>
+      
+
       <div><Footer /></div>
     </div>
   );

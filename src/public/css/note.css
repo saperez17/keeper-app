@@ -1,19 +1,22 @@
 .note-wrapper{
-    display: flex;
-    flex-direction: column;
-    width: 20vw;
+    width: 18vw;
+    height: fit-content;
     margin: 1rem 1rem;
     background-color: antiquewhite;
     border-radius: 10px;
+    display: inline-block;
 }
 
 .title{
     font-size: 1rem;
-    margin: 0.5rem;
-
+    /* margin: 1rem; */
+    padding: 1rem;
 }
-.content{
+.content > p{
     font-size: 1rem;
-    margin-left: 0.5rem;
-    margin-top: 0rem;
+    /* display: inline-block; */
+    /* height: 100%; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem; 
 }

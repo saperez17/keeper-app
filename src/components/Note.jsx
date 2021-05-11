@@ -5,7 +5,7 @@ const Note  = (props)=>{
     return(
        <div className="note-wrapper">
            <h1 className="title">{props.title?props.title:'Title'}</h1>
-           <p className="content">{props.content?props.content:'Content'}</p>
+           <div className="content"><p>{props.content?props.content:'Content'}</p></div>
        </div>
     )
 }

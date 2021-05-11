@@ -1,7 +1,6 @@
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
-
 body{
   background-color: antiquewhites;
 }
@@ -43,4 +42,17 @@ body{
   to {
     transform: rotate(360deg);
   }
+}
+
+.big-title{
+  display: flex;
+  justify-content: center; 
+}
+.note-container{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.note-container > .note-wrapper{
+  flex: 1 1 200px;
 }
