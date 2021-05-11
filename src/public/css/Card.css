@@ -1,0 +1,74 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30vw;
+    margin: 2rem auto;
+}
+
+.card > .card-title {
+    background-color: #44cfd1;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    height: 13vh;
+}
+.card > .card-title > .title{
+    position: relative;
+    display: inline-block;
+    width: 100%;    
+    margin-left: 0;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.card > .card-title > .title > h1{
+    color: #2e3238;
+    font-size: 1.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    clear: right;
+}
+
+
+.card > .card-title > .title > p{
+    
+}
+
+.card > .card-title > .img{
+    position: absolute;
+    right: 0px;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+    border: 4px solid white;
+    top: 50%;
+    right: 5%;
+    clear: left;
+
+}
+.card > .card-title > .title{
+
+}
+
+.card > .card-body{
+    height: 16vh;
+    background-color:#76f8fa;
+    color: #393e46;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+}
+
+.card > .card-body > .phone{
+    margin-bottom: 0;
+}
+.card > .card-body > .email{
+    margin-bottom: 0;
+}
