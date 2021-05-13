@@ -2,7 +2,7 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 body{
-  background-color: antiquewhites;
+  background-color: rgb(241, 241, 241);
 }
 
 .App {
@@ -54,5 +54,7 @@ body{
 }
 
 .note-container > .note-wrapper{
-  flex: 1 1 200px;
+  width: 18vw !important;
+  display: inline-block !important; 
+  flex: 0 0 200px;
 }

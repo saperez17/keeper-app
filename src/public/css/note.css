@@ -1,10 +1,11 @@
 .note-wrapper{
-    width: 18vw;
+    display: inline-block;
+    position: relative;
     height: fit-content;
     margin: 1rem 1rem;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    display: inline-block;
+    box-shadow: 1px 1px 5px rgb(153, 153, 153);
 }
 
 .title{
@@ -19,4 +20,24 @@
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 1rem; 
+}
+
+.btn-wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+.bnt-delete{
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 176, 58);
+    font-weight: 400;
+    margin: 0.5rem 1rem;
+    border-radius: 0.3rem;
+}
+
+.bnt-delete:hover{
+    background-color: rgb(255, 176, 58);
+    color: white;
 }

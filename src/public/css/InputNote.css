@@ -1,0 +1,47 @@
+.input-note-wrapper{
+    box-shadow: 1px 1px 5px rgb(124, 124, 124);
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    height: 15vh;
+    width: 25vw;
+    margin: 0.5rem 0rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.input-note-wrapper > button{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: -0.8rem;
+    right: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 207, 103);
+    background-color: rgb(255, 197, 37);
+    
+}
+
+.input-note-wrapper > button:hover{
+    background-color: rgb(252, 207, 82);
+}
+
+input, button{
+    font-family: 'Roboto', sans-serif;
+}
+
+input{
+    font-size: 1.1rem;
+    border: none;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease;
+    border-radius: 0.5rem;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
+}
